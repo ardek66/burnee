@@ -1,0 +1,9 @@
+* Burnee
+Burnee is a simple web application that returns HTTP responses from Gemtext files.
+
+It generates not only valid but correct HTML, in order to make sure the content is
+rendered properly in most browsers.
+
+The server runs in the background and for every request it responds with the file specified in the GET
+path inside the root directory converted to HTML. Mostly meant for http reverse proxies such as nginx.
+
